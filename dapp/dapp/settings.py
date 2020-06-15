@@ -55,7 +55,7 @@ ROOT_URLCONF = 'dapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')], # templates directory ; By DEV
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,5 +117,10 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
+# upon running python manage.py collectstatic system copies STATICFILES_DIR content to the STATIC_ROOT
+# ; By DEV
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
+STATICFILES_DIR=[os.path.join(BASE_DIR, 'dapp/static')]
+
