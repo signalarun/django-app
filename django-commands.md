@@ -5,4 +5,6 @@
   - python mange.py runserver
 * python mange.py startapp app-name
 * python manage.py collectstatic
-  - Generates static folder with configured resources 
+  - Generates static folder with configured resources   
+* python manage.py migrate
+  * Creates model in the connected database that is specified in settings.py
