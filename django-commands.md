@@ -14,3 +14,6 @@
     -  shows sql for the model creation    
   - python manage.py migrate
     - creates model in the connected database that is specified in settings.py
+ * create super user
+   - python manage.py createsuperuser
+   
