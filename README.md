@@ -23,3 +23,6 @@ A base application with Django which can be extended further
          }
        }
      ```
+     
+ ## Libraries
+ - [Django Stores](https://github.com/jschneier/django-storages)
