@@ -32,3 +32,4 @@ A base application with Django which can be extended further
  
  ## Samples
   - https://github.com/sibtc/django-upload-example
+  - https://github.com/theyogicoderRI/DjangoInchByInch
