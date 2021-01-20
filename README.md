@@ -26,6 +26,7 @@ A base application with Django which can be extended further
      
  ## Libraries
  - [Django Stores](https://github.com/jschneier/django-storages)
+ - [Navigation](https://djangopackages.org/grids/g/navigation/)
  
  ## Working of Django forms
  ![Django forms](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms/form_handling_-_standard.png)
