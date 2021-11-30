@@ -34,3 +34,6 @@ A base application with Django which can be extended further
  ## Samples
   - https://github.com/sibtc/django-upload-example
   - [Datatables](https://github.com/theyogicoderRI/DjangoInchByInch)
+
+ ## Plugins
+  + https://github.com/thauber/django-schedule
